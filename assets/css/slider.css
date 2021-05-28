@@ -1,0 +1,50 @@
+.slider {
+    display: flex;
+    min-width: 100%;
+}
+
+.slider__control {
+    z-index: 1000;
+    display: flex;
+    margin: auto;
+    font-size: 90px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    transition: color ease-in-out .3s;
+}
+
+.slider__control:hover {
+    color: black;
+}
+
+.slider__control > p {
+    margin: 0 32px;
+}
+
+.slider__gallery p {
+    color: white;
+    font-size: 26px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.slider__gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.slider__gallery__item {
+    display: flex;
+    min-width: 100%;
+}
+
+.slider__gallery__item > img {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
